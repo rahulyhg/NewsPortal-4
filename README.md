@@ -10,6 +10,6 @@
 There are three types of users
 
 1. Admin: Can edit and add all types of news
-2. SubAdmin: Can only edit the news which he has access to edit
+2. SubAdmin: Can only edit the news which s/he has access to edit
 3. Users: Can only view the news
 
