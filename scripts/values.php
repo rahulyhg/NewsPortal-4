@@ -1,4 +1,4 @@
 <?php
-	$VALUES["Name"] = "UMS" ;
+	$VALUES["Name"] = "NEWS Portal" ;
 	$VALUES["DBName"] = "ums";
 ?>

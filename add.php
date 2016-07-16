@@ -26,7 +26,7 @@
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
             <div class="mdl-layout__drawer">
-                <span class="mdl-layout-title">Material Design</span>
+                <span class="mdl-layout-title">News Portal</span>
                 <nav class="mdl-navigation">
                     <a class="mdl-navigation__link" href="home.php">News</a>
                     <?php 
