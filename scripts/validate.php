@@ -22,7 +22,7 @@
 				if(($uname == $userdata["username"]) && ($password == $userdata["password"] ))
 				{
 					session_start();
-		
+					
 					$_SESSION["uname"] = $userdata["username"];
 					$_SESSION["incorrect"] = false;
 					$_SESSION["usertype"] = $userdata["user_type"];
