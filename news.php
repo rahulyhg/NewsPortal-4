@@ -39,7 +39,7 @@
         }
         else
         {
-
+            header('HTTP/1.0 404 Not Found');
         }
 
 
@@ -56,7 +56,7 @@
             $news = new News($newsdata["id"],$newsdata["title"],$newsdata["content"]);
             array_push($newsarray,$news);
         }
-        //header('Content-Type: application/json');
+        header('Content-Type: application/json');
         //print_r($newsarray);
         echo json_encode($newsarray);
 
